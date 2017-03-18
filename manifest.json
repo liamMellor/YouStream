@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "TubeSync",
+  "version": "1.0",
+  "description": "A Chrome extension for playlisting music on youtube with streaming services.",
+  "author": "Liam Mellor",
+  "icons": { "128": "placeholder.png" },
+  "background": {
+    "persistent": false,
+    "scripts" : ["app.js"]
+  },
+  "page_action": {
+    "default_title": "TubeSync",
+    "default_popup": "popup.html",
+    "default_title": "Click here!"
+  },
+  "permissions": [
+    "activeTab",
+    "https://api.spotify.com"
+  ]
+}
